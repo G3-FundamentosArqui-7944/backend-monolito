@@ -1,0 +1,6 @@
+package pe.edu.upc.bodymatch.iam.interfaces.rest.resources;
+
+import java.util.List;
+
+public record AssignRolesResource(List<String> roles) {
+}
